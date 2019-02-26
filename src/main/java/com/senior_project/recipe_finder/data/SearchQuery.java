@@ -1,4 +1,4 @@
-package com.senior_project.recipe_finder.business.domain;
+package com.senior_project.recipe_finder.data;
 
 
 import lombok.Data;
