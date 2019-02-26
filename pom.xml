@@ -8,14 +8,14 @@
         <version>2.1.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.recipefinder</groupId>
-    <artifactId>api</artifactId>
+    <groupId>com.senior_project</groupId>
+    <artifactId>recipe_finder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>api</name>
-    <description>Backend API for recipe finder</description>
+    <name>recipe_finder</name>
+    <description>find recipes based on ingredients using edamam api</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
@@ -28,6 +28,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.16</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
